@@ -3,6 +3,11 @@
 Deploy your application to Ploi with Github actions.
 This action supports both the `Deploy webhook URL` found in the site repository tab and API based deployment.
 
+> [!IMPORTANT]  
+> This is a fork of [Glennmen/ploi-deploy-action](https://github.com/Glennmen/ploi-deploy-action)
+>
+> When using, make sure to replace `Glennmen/ploi-deploy-action@v1.2.0` with `utomic-media/ploi-deploy-action@main`. We add / sync version tags in the future.
+
 ## Inputs
 
 ### Webhook deployment
